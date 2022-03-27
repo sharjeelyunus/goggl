@@ -6,8 +6,8 @@ export const Routes = () => {
   const elements = useRoutes([
     { path: '/', element: <Navigate to='/search' /> },
     { path: '/search', element: <Results /> },
-    { path: '/videos', element: <Results /> },
-    { path: '/images', element: <Results /> },
+    { path: '/video', element: <Results /> },
+    { path: '/image', element: <Results /> },
     { path: '/news', element: <Results /> },
   ]);
 
