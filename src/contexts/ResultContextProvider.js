@@ -16,7 +16,7 @@ export const ResultContextProvider = ({ children }) => {
             headers: {
                 'X-User-Agent': 'desktop',
                 'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-                'X-RapidAPI-Key': 'ad57dc2bedmsh0e8de5bebd619abp14ccbejsn713bf2b5e4ad'
+                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
             }
         });
 
