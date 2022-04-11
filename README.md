@@ -3,7 +3,6 @@
 ![Goggl](https://i.ibb.co/yQdYhtq/image.png)
 
 ## Introduction
-This is a code repository for the corresponding video tutorial. 
 Goggl - A Google Clone App built with React and Google Search API powered by https://rapidapi.com.
 
 ### Setup
